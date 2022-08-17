@@ -6,6 +6,7 @@ import com.ndis.demo.service.iFormService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+@CrossOrigin
 @RestController
 @RequestMapping("/forms")
 public class formController2 {
